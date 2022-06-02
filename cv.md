@@ -7,4 +7,4 @@
     2. CSS3 -- 3/10
     3. JavaScript -- 2/10
 
-Мой GitHub: @thebomberdove
+Мой GitHub: [@thebomberdove](https://github.com/TheBomberDove)
