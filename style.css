@@ -1,3 +1,20 @@
 @keyframes color {
 
 }
+
+.menu > li {
+/* убираем маркеры списка */
+    list-style-type: none; 
+}
+
+.menu > ul { 
+/* убираем отступы у маркированного списка */
+    margin-left: 0px; 
+    padding-left: 0px;
+} 
+
+.work > ul > li > ul {
+/* убираем отступы у маркированного списка */
+    margin-left: 0px; 
+    padding-left: 0px;
+}
