@@ -6,14 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Anton's CV</title>
+    <!-- обновленям страницу каждые 10 секунд для второго монитора -->
+    <!-- <meta http-equiv="refresh" content="5"> -->
 </head>
 <body>
 <!-- ФИО и фотография -->
-    <div class="personalName">
-        <h1>Антон Каменский</h1>
-    </div>
-    <div class="personalPhoto">
-        <img src="https://velog.velcdn.com/images/sdb016/post/34bdac57-2d63-43ce-a14c-8054e9e036de/test.png" width="200px" height="200px" alt="profile photo"></img>
+    <div class="info">
+        <div class="personalPhoto">
+            <img src="https://velog.velcdn.com/images/sdb016/post/34bdac57-2d63-43ce-a14c-8054e9e036de/test.png" width="200px" height="200px" alt="profile photo"></img>
+        </div>
+        <div class="personalName">
+            <h1>Антон Каменский</h1>
+        </div>
     </div>
 <!-- Навигационное меню (пока заглушки) -->
     <nav class="menu">
@@ -25,21 +29,37 @@
     </nav>
 <!-- Блок с опытом: скилы, опыт работы и курсы с сертификатами -->
     <div class="experiance">
-        <div class="skills">
-            <h2>Навыки</h2>
-            <div class="skillName">
-                <p>HTML</p>
-                <div class="progBar"></div>
+        <div class="learning">
+            <div class="skills">
+                <h2>Навыки</h2>
+                <div class="skillName">
+                    <p>HTML</p>
+                    <div class="progBar">
+                        <div class="barAnim">30%</div>
+                    </div>
+                </div>
+                <div class="skillName">
+                    <p>CSS3</p>
+                    <div class="progBar">
+                        <div class="barAnim">20%</div>
+                    </div>
+                </div>
+                <div class="skillName">
+                    <p>JavaScript</p>
+                    <div class="progBar">
+                        <div class="barAnim">20%</div>
+                    </div>
+                </div>
+            </div> <br>
+            <div class="courses">
+                <h2>Курсы</h2>
+                <ul>
+                    <li><a href="https://rs.school/js-stage0/" target="_blank">RS School</a></li>
+                    <li><a href="https://www.sololearn.com/profile/25525928" target="_blank">SoloLearn</a></li>
+                    <li><a href="https://www.freecodecamp.org/learn/" target="_blank">Freecodecamp</a></li>
+                </ul>
             </div>
-            <div class="skillName">
-                <p>CSS3</p>
-                <div class="progBar"></div>
-            </div>
-            <div class="skillName">
-                <p>JavaScript</p>
-                <div class="progBar"></div>
-            </div>
-        </div> <br>
+        </div>
         <div class="work">
             <h2>Профессиональный опыт</h2>
             <ul>
@@ -58,15 +78,7 @@
                     </ul>
                 </li>
             </ul> <br>
-        </div>
-        <div class="courses">
-            <h2>Курсы</h2>
-            <ul>
-                <li><a href="https://rs.school/js-stage0/" target="_blank">RS School</a></li>
-                <li><a href="https://www.sololearn.com/profile/25525928" target="_blank">SoloLearn</a></li>
-                <li><a href="https://www.freecodecamp.org/learn/" target="_blank">Freecodecamp</a></li>
-            </ul>
-        </div>
+        </div> <br>
     </div>
 </body>
 <!-- Футер с ссылками на внешние персональные ресурсы -->
