@@ -76,13 +76,18 @@ footer {
 .progBar {
     width: 300px;
     height: 30px;
-    border-radius: 10px;
+    border-radius: 5px;
+    border-style: solid;
 }
 
 /* Анимация заполнения прогресс бара */
 .barAnim {
+    width: 300px;
+    height: 30px;
     animation: progress forwards;
     animation-duration: 5s;
+    text-align: end;
+    vertical-align: bottom;
 }
 
 /* НЕ ТРОГАТЬ  */
