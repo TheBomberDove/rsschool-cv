@@ -1,0 +1,111 @@
+/* Добавляем анимацию */
+@keyframes progress {
+    from {width: 0%; background-color: white;};
+    50% {width: 50%; background-color: antiquewhite;}
+    to {width: 100%; background-color: rgb(206, 181, 78);}
+}
+
+/* Основной CSS по блокам */
+
+body {
+    background: radial-gradient(#d4d4d4, #FCFFE7);
+}
+
+.info {
+    display: flex;
+}
+
+.personalName {
+    /* background-color: #E0D8B0; */
+    width: 90%;
+    position: fixed;
+    text-align: left;
+    margin-left: 200px;
+}
+
+.personalPhoto {
+    /* background-color: #E0D8B0; */
+    width: 10%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.menu {
+    /* background-color: #FCFFE7; */
+    width: 100%;
+}
+
+.experiance {
+    /* background: linear-gradient(to right, white, black); */
+    padding: 10px;
+    display: flex;
+}
+
+.skills {
+    /* background-color: #CE9461; */
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 40%;
+    display: inline-table;
+    box-shadow: 10px 5px 20px black;
+}
+
+.courses {
+    /* background-color: #CE9461; */
+    padding: 10px;
+    width: 40%;
+    display: inline-table;
+    box-shadow: 10px 5px 20px black;
+}
+
+.work {
+    /* background-color: #CE9461; */
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 60%;
+    float: right;
+    display: inline-table;
+    box-shadow: 10px 5px 20px black;
+}
+
+footer {
+    /* background-color: #8E3200; */
+}
+
+.progBar {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+/* Анимация заполнения прогресс бара */
+.barAnim {
+    width: 300px;
+    height: 30px;
+    animation: progress forwards;
+    animation-duration: 5s;
+    text-align: end;
+    vertical-align: bottom;
+}
+
+/* НЕ ТРОГАТЬ  */
+
+.menu > li {
+/* убираем маркеры списка */
+    list-style-type: none; 
+}
+
+.menu > ul { 
+/* убираем отступы у маркированного списка */
+    margin-left: 0px; 
+    padding-left: 0px;
+    display: inline;
+} 
+
+.work > ul > li > ul {
+/* убираем отступы у маркированного списка */
+    margin-left: 0px; 
+    padding-left: 0px;
+}
